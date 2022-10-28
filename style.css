@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    text-align: center;
+   
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: auto;
+
+}
+.navbar{
+    height: auto;
+    background-color: rgb(138, 138, 138);
+}
+.home-icono{
+    width: 20px;
+    height: 20px;
+}
+
+.yo{
+    width: 60%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    
+    background-image: url(./recursos/7ba22ede-81ef-4609-88e7-4317cc74fb9c.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 250px;
+    animation-name: cambiarcolor;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes cambiarcolor {
+    0%{
+        box-shadow: 0 0 15px 5px slategrey;
+
+    }
+    5%{
+        box-shadow: 0 0 15px 5px white;
+    }
+    15%{
+        box-shadow: 0 0 15px 5px aqua;
+    }
+    25%{
+        box-shadow: 0 0 15px 5px blue;
+    }
+    35%{
+        box-shadow: 0 0 15px 5px blueviolet; 
+    }
+    45%{
+        box-shadow: 0 0 15px 5px darkred;
+    }
+    55%{
+        box-shadow: 0 0 15px 5px orangered;
+    }
+    65%{
+        box-shadow: 0 0 15px 5px gold;
+    }
+    75%{
+        box-shadow: 0 0 15px 5px fuchsia;
+    }
+    85%{
+        box-shadow: 0 0 15px 5px green;
+    }
+    95%{
+        box-shadow: 0 0 15px 5px white;
+
+    }
+    100%{
+        box-shadow: 0 0 15px 5px gray;
+
+    }
+}
+.nombre{
+    font-size: 30px;
+    width: 50%;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mi-nombre{
+    font-size: 45px;
+
+}
+
+
+.habili{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.container-habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10 px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.habilidades{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0 0 5px 5px;
+    
+  
+}
+.habilidades:hover{
+  
+  transform: rotate(1080deg);
+  transition-duration: 2s;
+  background-color: white;
+  box-shadow: 0 0 10px 10px;
+  
+  
+}
+#habili1{
+    
+    background-image: url(./recursos/html.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+
+
+
+#habili2{
+    background-image: url(./recursos/css.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#habili3{
+    background-image: url(./recursos/js.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#habili4{
+    background-image: url(./recursos/java.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#habili5{
+    background-image: url(./recursos/posgrest.png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#habili6{
+    background-image: url(./recursos/github.png);
+    background-size: 160%;
+    background-color: white;
+    background-position: center;
+}
+#habili7{
+    background-image: url(./recursos/bostrap.png);
+    background-size: 110%;
+    background-position: center;
+}
+.container-proyectos{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.proyectos{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.miniatura1{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/pokemon.png);
+}
+.miniatura2{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    background-image: url(./recursos/calblack.png);
+}
+.miniatura3{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./recursos/solytierra.png);
+}
+.miniatura4{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/imc.png);
+}
+.miniatura5{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/calculadora.png);
+}
+.miniatura6{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/añadirpersonas.png);
+}
+.miniatura7{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/añadiryeliminartarjetas.png);
+}
+.miniatura8{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/comprarproducto.png);
+}
+.miniatura9{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/buscarpersona.png);
+}
+.miniatura10{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/convertidordetemperatura.png);
+}
+.miniatura11{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/pokemon.png);
+}
+.miniatura12{
+    width: 300px;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(./recursos/pokemon.png);
+}
+.descripcion{
+    height: 30%;
+}
+a{
+    text-decoration: none;
+}
+.container-destrezas{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 30px;
+  
+}
+.blandas{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  background-image: url(https://static.wixstatic.com/media/97b295_343224e0b87544f6b1e301fabbe07d6e~mv2.gif);
+
+}
+.duras{
+  font-size: 15px;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://static.wixstatic.com/media/97b295_343224e0b87544f6b1e301fabbe07d6e~mv2.gif);
+  
+}
+
+
+
+.iconos-redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.instagram{
+    width: 80px;
+    height: 80px;
+    background-image: url(./recursos/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.facebook{
+    width: 80px;
+    height: 80px;
+    background-image: url(./recursos/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.whatsapp{
+    width: 80px;
+    height: 80px;
+    background-image: url(./recursos/whasapp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.coex{
+    width: 200px;
+    height: 80px;
+    background-image: url(./recursos/logo\ -\ coex.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boton{
+    --glow-color: rgb(77, 255, 0);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: 1px solid green;
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 1em;
+   
+    
+  
+}
+.boton:hover{
+    box-shadow: 0 0 10px 5px green;
+    background-image: url(https://static.wixstatic.com/media/97b295_343224e0b87544f6b1e301fabbe07d6e~mv2.gif);
+    background-size: contain;
+    text-shadow: 0 0 1em green;
+    color: white;
+    transition: all 0.3s;
+
+}
+
+
+
+
+@media(max-width:600px){
+    .yo{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 600px;
+        width: 100%;
+        gap: 10px;
+        
+    }
+    .foto{
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-radius: 250px;
+        animation-name: cambiarcolor;
+        animation-duration: 25s;
+        animation-iteration-count: infinite;
+    }
+    .habili{
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nombre{
+        font-size: 20px;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mi-nombre{
+        font-size: 25px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
